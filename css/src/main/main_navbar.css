@@ -1,0 +1,41 @@
+/*#05CF5E*/
+
+.navbar{width: 100%;height: 30px;}
+.navbarIn{margin: auto;
+width: 1000px;}
+.navbarIn>ul{width: 100%;height: 100%;}
+.navbarIn>ul>li{float:left;
+margin-top: 10px;
+margin-left: 15px;
+font-size: 15px;
+font-weight: 400;}
+
+.top{float:right;
+margin-top: 10px;
+width: 140px;height: 30px;}
+.top>li{
+width: 100%;height: 100%;
+}
+.top>li>a{display: block;
+width: 100%;height: 100%;
+font-size: 14px;
+}
+
+.topnumber{color:#05cf5e;
+font-weight: bold;}
+.topkeyword{color:#000;
+font-weight: 400}
+
+
+.navbarIn>ul>li>a{display: block;
+width: 100%;height: 100%;}
+
+.navbarIn>ul>li:nth-of-type(1)>a,
+.navbarIn>ul>li:nth-of-type(2)>a,
+.navbarIn>ul>li:nth-of-type(3)>a,
+.navbarIn>ul>li:nth-of-type(4)>a,
+.navbarIn>ul>li:nth-of-type(5)>a,
+.navbarIn>ul>li:nth-of-type(6)>a,
+.navbarIn>ul>li:nth-of-type(7)>a{
+color:#05CF5E;
+}
