@@ -7,7 +7,7 @@ width: 1000px;}
 .navbarIn>ul{width: 100%;height: 100%;}
 .navbarIn>ul>li{float:left;
 margin-top: 10px;
-margin-left: 15px;
+margin-left: 12px;
 font-size: 15px;
 font-weight: 400;}
 
@@ -20,6 +20,12 @@ width: 100%;height: 100%;
 .top>li>a{display: block;
 width: 100%;height: 100%;
 font-size: 14px;
+}
+
+.top>li:nth-of-type(2),
+.top>li:nth-of-type(3),
+.top>li:nth-of-type(4){
+display: none;
 }
 
 .topnumber{color:#05cf5e;
