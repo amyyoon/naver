@@ -1,6 +1,7 @@
 /*#05CF5E*/
 
-.navbar{width: 100%;height: 30px;
+.navbar{position: relative;
+width: 100%;height: 30px;
 border-bottom:1px solid #eee;}
 .navbarIn{margin: auto;
 width: 1000px;}
@@ -11,12 +12,16 @@ margin-left: 12px;
 font-size: 15px;
 font-weight: 400;}
 
-.top{float:right;
+.top{position: absolute;
+left:70%;
+float:right;
 margin-top: 10px;
-width: 140px;height: 30px;}
+width: 140px;height: auto;
+z-index:1000;}
 .top>li{
 width: 100%;height: 100%;
-display: none;
+margin-bottom: 10px;
+display: block;
 }
 .top>li>a{display: block;
 width: 100%;height: 100%;

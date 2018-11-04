@@ -5,8 +5,8 @@
 
 	setInterval(function(){
 		if(j<3){j+=1}else{j=0}
-		topLi.animate({marginTop:j*-30+'px'})
-		topLi.eq(0).next().css({display:'block'})
+		$('.top').animate({top:j*-100+'%'})
+		$('.top').children('li').next().css({display:'none'})
 	},3000);
 console.log(topLi);
 
