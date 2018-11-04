@@ -21,7 +21,7 @@ z-index:1000;}
 .top>li{
 width: 100%;height: 100%;
 margin-bottom: 10px;
-display: block;
+display: none;
 }
 .top>li>a{display: block;
 width: 100%;height: 100%;
