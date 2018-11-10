@@ -9,6 +9,4 @@
 		$('.top').children('li').css({display:'block'})
 	},3000);
 
-
-
 })(jQuery);
